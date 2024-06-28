@@ -137,3 +137,4 @@ const restartButton = document.querySelector("#restartGame"); //9
 restartButton.addEventListener("click", ()=>{
     Game.restart(); // we introduced restart() which we are going to implement in our Game()
 })
+
