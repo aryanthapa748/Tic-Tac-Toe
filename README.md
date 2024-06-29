@@ -2,6 +2,9 @@
 **Introduction**
 Welcome to the Tic Tac Toe project! In this project, I created a classic Tic Tac Toe game that you can play in your browser. This project has helped me practice and solidify my knowledge of HTML, CSS, and JavaScript by combining them into a functional and interactive web application.
 
+**OutCome**
+(C:\Users\pubintw10\Pictures\Screenshots)
+
 **Key Considerations**
 
 **Encapsulation**: Keep most of your code within objects and modules to enhance maintainability and scalability.
