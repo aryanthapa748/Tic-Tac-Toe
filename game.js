@@ -68,7 +68,7 @@ const Game = (()=>{  //3
         // now we need to check the conditions to declare who wins 
         if(checkForWin(Gameboard.getGameboard(), players[currentPlayerIndex].mark)){  //10
             gameOver = true;
-            displayController.renderMessage(`${players[currentPlayerIndex].name} won!`);
+            displayController.renderMessage(`Yay !!! ${players[currentPlayerIndex].name} won !`);
         } else if (checkForTie(Gameboard.getGameboard())){  // 12
             gameOver = true;
             displayController.renderMessage(`It's a tie.`);

@@ -5,19 +5,45 @@
 }
 
 body{
-    background-image: url('ticTacToe3.jpeg');
+    background-image: url('ticTacToe1.jpeg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin: 0;
 }
 
 h1{
     text-align: center;
     font-size: 40px;
-    color: rgb(146, 146, 237);
+    color: rgb(134, 134, 253);
+    margin: -1px;
+}
+
+input{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(53, 49, 49);
+}
+
+button[type="button"]{
+    padding: 8px;
+    margin: 5px 5px 0px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #5b4b4c;
+    background-color: #ffaaac;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+button[type="button"]:hover{
+    background-color: #f7968f;
+
 }
 
 #gameboard{
@@ -38,13 +64,18 @@ h1{
     align-items: center;
     text-align: center;
     font-size: 5rem;
-    color: beige;
-    background-color: rgb(121, 200, 224);
+    color: rgb(252, 252, 208);
+    background-color: #b2eee6;
     cursor: pointer;
-    transition: all 0.1s ease;
 }
 
 #controls, #message{
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
+}
+
+footer{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
