@@ -78,4 +78,19 @@ footer{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    color: rgb(114, 114, 247);
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(106, 106, 208);
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(114, 114, 247);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    padding: 4px;
+
 }
