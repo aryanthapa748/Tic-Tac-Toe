@@ -24,8 +24,9 @@ h1{
 }
 
 input{
-    padding: 4px;
+    padding: 8px;
     margin: 10px;
+    font-size: 14px;
     border-radius: 5px;
     border: 1px solid rgb(53, 49, 49);
 }
