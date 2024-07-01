@@ -93,5 +93,24 @@ footer a:hover{
     color: rgb(114, 114, 247);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
     padding: 4px;
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    input, button[type="button"] {
+        font-size: 0.9rem;
+    }
+
+    #gameboard{
+        height: 400px;
+        width: 400px;
+    }
+
+    .square {
+        font-size: 8vw;
+    }
 }
